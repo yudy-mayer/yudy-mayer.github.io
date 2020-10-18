@@ -1,0 +1,309 @@
+body{
+  font-size: 16px;
+  margin: 0px;
+  background-color: #F6F6F6;
+}
+
+.body {
+  width: 100%;
+}
+
+header{
+  border-top:solid 8px #6CC6C4;
+  height: auto;
+}
+
+.top1 {
+  text-align: center;
+  margin: 0px;
+}
+
+.top1region {
+  margin: 0px;
+}
+
+.top1region p {
+  font-size: 10px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.top1s {
+  width:55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top1tel  {
+  font-size: 22px;
+  margin: 0px;
+  background:url(img/download-2.png) left no-repeat;
+  padding:0 0 0 25px;
+  margin-bottom: 6px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+.top1time {
+  margin-bottom: 15px;
+  border: solid 1px #aaaaaa;
+  font-size: 10px;
+  margin: 0px;
+  margin-bottom: 10px;
+  padding: 5px 0px ;
+  text-align: center;
+}
+
+.top1time span {
+  color: tomato;
+}
+
+.top2 ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  list-style: none;
+  padding: 0px;
+}
+
+.top2 a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.one, .two{
+  display: block;
+  font-size: 14px;
+}
+
+.one{
+  padding-top: 17px;
+
+}
+
+.two{
+  font-size: 10px;
+  padding-bottom: 18px;
+}
+
+.top2 li {
+ width: 50%;
+ border-radius: 7px;
+ background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+ color: white;
+ border-color: #6CC6C4;
+}
+
+
+.mainpic {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainpic img{
+  margin: 0px;
+  width: 100%;
+}
+
+.maininfo {
+  width:97%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding-bottom: 40px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.maininfo1{
+  width: 90%;
+  margin:0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.maininfo1 > p {
+  padding-top: 20px;
+  margin: 0px;
+  border-bottom: solid 3px #6CC6C4;
+  padding-bottom: 8px;
+}
+
+.diary p {
+  font-size: 13px;
+}
+
+.indent {
+  text-indent: 5px;
+  border-bottom: dotted 1px #CCCCCC;
+  padding-bottom: 13px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+dl {
+  padding: 0;
+  margin: 0 0 15px;
+}
+dt {
+  float: none;
+  width: 100%;
+  padding: 20px 0;
+	font-weight: bold;
+	line-height: 150%;
+  margin:0;
+  font-size: 13px;
+
+}
+dd {
+  float: none;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  line-height: 150%;
+	border-bottom: 1px #CCCCCC dotted;
+  margin:0;
+  font-size: 13px;
+}
+
+.diary {
+  padding-top: 10px;
+}
+
+.date {
+  font-weight: bolder;
+}
+
+
+.navigation {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.navigation ul{
+  padding: 0px;
+  margin: 0px 12px 20px 12px;
+}
+
+.navigation ul li{
+  position: relative;
+  list-style-type:none;
+  border-bottom: solid 1px #6CC6C4;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.navigation li a {
+  text-decoration:none;
+  background: url(img/download.png) left center no-repeat;
+  padding-left: 20px;
+  color: #595959;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.nav1, .nav2 {
+  width: 95%;
+  margin:0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.ippan {
+  background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+
+}
+
+.ippan p {
+  margin:0px;
+  padding: 10px 0;
+  text-indent: 15px;
+  color: white;
+}
+
+.nav1{
+  border: solid 1px #6CC6C4;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.sinbi {
+  background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+}
+
+.sinbi p {
+  margin:0px;
+  padding: 10px 0;
+  text-indent: 15px;
+  color: white;
+}
+
+.nav2{
+  border: solid 1px #6CC6C4;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  margin-top: 17px;
+}
+
+.btmlink {
+  width: 95%;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.btmlink ul{
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px #6CC6C4;
+  background-color: #6CC6C4;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+.btmlink ul li{
+  list-style-type: none;
+  background: url(img/download-1.png) no-repeat left;
+  padding-left: 20px;
+  padding-right: 2px;
+}
+
+.btmlink ul li a{
+  padding-right: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+footer{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.footer1{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right
+}
+
+.footer2{
+  border-bottom: solid 2px #6CC6C4;
+}
+
+.footer1 p {
+  font-size: 14px;
+  margin: 0px;
+}
+
+.footer3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  text-align: center;
+}

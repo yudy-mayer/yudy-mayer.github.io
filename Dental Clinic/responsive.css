@@ -1,0 +1,101 @@
+@media screen and (min-width:961px) {
+
+  .body{
+    width: 55%;
+    margin: auto;
+  }
+
+.top1 {
+  display: inline-block;
+  width: 100%;
+}
+
+.top1img {
+  float: left;
+}
+
+.top1img img{
+  padding-top: 50px;
+}
+
+.region{
+  font-size: 10px;
+}
+
+
+.top1s{
+    float: right;
+    width: 25%;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.top2 ul {
+margin-top: 0px;
+}
+.top2 li {
+  width: 20%;
+} 
+
+.all {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 55%;
+  margin: auto;
+}
+
+.navigation {
+  padding-top: 0px;
+  width: 40%;
+}
+
+.pics{
+  width: 100%;
+}
+
+.mainpic{
+  margin: auto;
+}
+
+dl{
+  margin: 0 0 15px;
+	padding: 0 10px 10px;
+}
+
+dt{
+  float: left;
+	width: 11em;
+	padding: 10px 0;
+	font-weight: bold;
+	line-height: 150%;
+  margin:0;
+  font-size: 14px;
+}
+
+dd{
+  margin:0;
+	padding: 10px 10px 10px 11em;
+	line-height: 150%;
+  border-bottom: 1px #CCCCCC dotted;
+  font-size: 13px;
+}
+
+
+.btmlink {
+  width: 55%;
+  margin: auto;
+
+}
+
+footer{
+  width: 55%;
+  margin: auto;
+
+}
+
+
+}
