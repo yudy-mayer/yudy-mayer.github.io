@@ -1,0 +1,626 @@
+@media (max-width: 576px) {
+
+  header a, .select, .interview2, .dream, .describe a, .profit1 br,.last2, .last1 br{
+    display: none;
+  }
+
+  header {
+    height:0px;
+    background-color: none;
+    position: relative;
+  }
+
+  header i {
+    color:white;
+    font-size: 90px;
+    padding:60px 57px;
+  }
+  
+
+  .top-wrapper {
+    padding:0;   /* ページトップの余白なくす */
+  }
+
+  .container::after{
+    content: 'Airbnbホストになって、暮らしをレベルアップ';
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1.0em;
+    position: absolute;
+    top:400px;
+    left:60px;
+    right: 50px;
+  }
+
+  .select2 {
+    display:block;
+    height: 700px;
+    width: 100%;
+  }
+
+  .intro {
+    width: 80%;
+    font-size: 35px;
+    font-weight: bolder;
+    color:#4b4b4b;
+  }
+
+  .iphone {
+    text-align: center;
+  }
+
+  input[type="text"] {
+    height: 100px;
+    font-size: 40px;
+    border: solid 1px #747573;
+    margin-bottom:10px;
+
+  }
+
+  #lend {
+    height: 100px;
+    margin-right:0px;
+    font-size: 40px;   
+    border: solid 1px #aaa;
+    margin-bottom:10px;
+  }
+
+  #lend option{
+    font-size: 40px;   
+  }
+
+  #guest{
+    height: 100px;
+    font-size: 40px;    
+    border: solid 1px #aaa;
+    margin-bottom:110px;
+  }
+  
+  .selected3 {
+    margin:0;
+  }
+
+  .btn1 {
+    padding:40px 320px;
+    border-radius: 22px;
+    font-size: 50px;
+  }
+
+  .explain {
+    display: inline-block;
+    height: 1500px;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .explain1 {
+    padding:0;
+  }
+
+  .explain1 h3 {
+    font-size: 65px;
+  }
+
+  .explain1 p {
+    font-size:47px;
+    line-height: 67px;
+  }
+
+  .explain2 {
+    padding:0;
+  }
+
+  .explain2 h3 {
+    font-size: 65px;
+  }
+
+
+  .explain2 p {
+    font-size:47px;
+    line-height: 67px;
+  }
+
+
+ .hosting {
+  height: 3000px;
+  padding:50px 70px;
+}  
+
+.hosting h1 {
+  text-align: left;
+  font-size: 120px;
+  line-height: 120px;
+}
+
+.hosting h1::before{
+  left:13%;
+  top: -80px;
+  width: 200px;
+  height: 6px;
+
+}
+
+.contents {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+
+.contents i {
+  font-size: 170px;
+}
+
+.contents h3 {
+  font-size: 70px;
+}
+
+.contents p, a {
+  font-size:47px;
+  line-height: 67px;
+}
+
+.contents1 {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin: 0px 0px;
+  margin-bottom: 140px;
+}
+.contents2 {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin: 0px 0px;
+  margin-bottom: 140px;
+
+}
+.contents3 {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin: 0px 0px;
+}
+
+.interview{
+  display: inline-block;
+  padding:50px 70px;
+  width: 100%;
+  margin:0;
+  height:1800px;
+}
+
+.interview22 {
+  display: block;
+}
+
+.interview22 img{
+  width: 830px;
+  margin-bottom: 60px;
+}
+
+.interview1 {
+  height: 800px;
+  padding-right: 0px;
+}
+
+.interview1 h2{
+  font-size:55px ;
+  line-height:67px ;
+  padding-bottom:none;
+  color:#747573;
+}
+
+.interview1 h2::before {
+  font-size: 150px;
+  top:-50px;
+
+}
+.interview1 p{
+  font-size:40px ;
+  line-height:60px ;
+  margin-bottom: 100px;
+  padding-bottom: 0px; 
+}
+
+.interview1 a {
+  font-size:50px ;
+  padding:38px 50px;
+  border:solid 5px #413f3f;
+  border-radius: 12px;
+}
+
+.safe {
+  margin-top: 140px;
+  height: 3900px;
+  padding:50px 70px;
+  margin-bottom: 200px;
+
+}
+
+.safe h2 {
+  text-align: left;
+  font-size: 110px;
+  line-height: 120px;
+}
+
+.safe h2::before{
+  left:13%;
+  top: -80px;
+  width: 200px;
+  height: 6px;
+}
+
+.system {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.system1 {
+  width: 100%;
+  padding-right: 0px;
+  margin:0;
+  margin-bottom: 100px;
+}
+
+.system1 p{
+  color: #747573;
+}
+
+.system1 p, a {
+  font-size: 47px;
+}
+
+.system2 {
+  width: 100%;
+  margin:0;
+  margin-bottom: 200px;
+}
+
+.system2 li{
+  font-size: 47px;
+  margin-bottom: 20px;
+  color: #747573;
+}
+
+.system2 span {
+font-size: 70px;
+padding-right: 30px;
+}
+
+.bedmaking {
+  display: block;
+  width: 100%;
+  height: 800px;
+
+}
+
+.bedmaking img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.simple {
+  margin-top: 0px;
+  height: 3800px;
+  padding:50px 70px;
+  margin-bottom: 100px;
+}
+
+.simple .money {
+  font-size: 110px;
+  text-align: left;
+}
+
+.simple .money::before{
+  left:13%;
+  top: -80px;
+  width: 200px;
+  height: 6px;
+}
+
+.free {
+  display: inline-block;
+  margin: 0;
+  padding-bottom: 0px;
+  width: 100%;
+  margin-bottom: 250px;
+}
+
+.free h3 {
+  font-size: 70px;
+}
+
+.free p {
+  font-size:47px;
+  line-height: 65px;
+}
+
+.woman {
+  display: inline-block;
+  width: 100%;
+  margin: 0px;
+  padding-bottom:0px;
+}
+
+.woman1 img {
+  width: 100%;
+  padding-right: 0px;
+  object-fit: cover;
+}
+
+.woman2 {
+  width: 100%;
+}
+
+.woman2 h2 {
+  font-size: 53px;
+  line-height: 80px;
+}
+
+.woman2 h2::before{
+  font-size: 150px;
+  top:-50px;
+}
+
+.woman2 p {
+font-size: 40px;
+line-height: 50px;
+margin-bottom: 70px;
+}
+
+.woman2 a {
+  font-size:50px;
+  padding:38px 50px;
+  border:solid 5px #413f3f;
+  border-radius: 12px;
+}
+
+.about {
+  height: 1900px;
+  padding:50px 70px;
+  margin-bottom: 200px;
+}
+
+.about h2 {
+  text-align: left;
+  font-size: 115px;
+  line-height: 120px;
+}
+
+.about h2::before{
+  left:13%;
+  top: -80px;
+  width: 200px;
+  height: 6px;
+}
+
+.what {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+
+.what1  {
+  width: 100%;
+  padding-right: 0px;
+  margin-bottom: 200px;
+}
+
+.what h3 {
+  font-size: 70px;
+  line-height: 24px;
+  margin-bottom: 100px;
+}
+
+.what p {
+  font-size: 47px;
+  line-height: 70px;    
+}
+
+.what a {
+  color: #008489;
+}
+
+.what2 {
+  width: 100%;
+}
+
+.faq {
+  margin:0 ;
+  padding-bottom: 100px;
+  height: 1900px;
+  padding:50px 70px;
+  margin-bottom: 0px;
+}
+
+.faq h2 {
+  text-align: left;
+  font-size: 115px;
+  line-height: 120px;
+  margin-bottom: 200px;
+}
+
+.faq h2::before{
+  left:13%;
+  top: -80px;
+  width: 200px;
+  height: 6px;
+}
+
+.faqbox {
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+}
+
+.faq li {
+  padding-bottom: 80px;
+  border-bottom: solid 1px #aaa;
+  margin-bottom: 55px;
+
+}
+
+.faq a {
+font-size: 48px;
+padding-bottom: 0px;
+}
+
+.faq1, .faq2 {
+  margin-right:0px;
+  width: 100%;
+}
+
+.detail {
+  width: 100%;
+  max-width: none;
+  margin:0 ;
+  padding:0px 70px;
+}
+
+.detail h3{
+  text-align: left;
+  font-size: 72px;
+  font-weight: 800;
+}
+
+.bridge {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0px 70px;
+  margin-bottom: 200px;
+}
+
+.describe {
+  display: inline-block;
+  justify-content: none;
+  width: 100%;
+}
+
+.describe_item {
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  margin-bottom: 50px;
+  border: solid 1px #aaa;
+  border-radius: 7px;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+.describe_item img {
+  width: 220px;
+  height: 220px;
+  border-radius: 3px;
+  object-fit:cover;
+}
+
+.describe_item h4{
+  font-size: 40px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+}
+
+.describe_item p{
+  font-size: 37px;
+  margin-left:50px;
+  margin-top: 0px;
+}
+
+.item+ {
+  display: flex;
+  height: 220px;
+}
+
+.profit {
+  margin-top: 0px;
+  height: 1100px;
+  max-width: none;
+  background-position:center;
+  margin:0;
+  margin-bottom: 140px;
+}
+
+.profit1 {
+  padding:100px 80px;
+
+}
+
+.profit h1 {
+  font-size: 110px;
+  line-height: 130px;
+  letter-spacing: 5px;
+}
+
+.jyp {
+  padding: 40px 70px;
+  font-size: 45px;
+  border-radius: 13px;
+}
+
+footer {
+  border-top: solid 3px #ebeced;
+  background: #f7f7f7;
+}
+
+.footer1 {
+  display: inline-block;
+  padding: 50px 70px;
+  width: 100%;
+}
+
+.footer_item h4 {
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+
+.footer_item li{
+  margin-bottom: 40px;
+}
+
+.footer_item a {
+  font-size: 18px;
+
+}
+
+.footer2 {
+  display: inline-block;
+  padding: 50px 70px;
+  width: 100%;
+}
+
+.lastt {
+  margin-bottom: 35px;
+}
+
+.lastt i {
+padding-right: 30px;
+}
+
+.earth {
+  font-size: 40px;
+}
+
+.yenn {
+  font-size: 15px;
+}
+
+.lastt a {
+  font-size: 20px;
+}
+
+.japanese {
+  padding-right: 50px;
+}
+
+.last1 a {
+  font-size: 20px;
+}
+.last1 p {
+  font-size: 20px;
+}
+
+.line {
+  width: 100%;
+}
+
+}
